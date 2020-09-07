@@ -11,6 +11,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3"
   },
+  "clean": "gh-pages-clean",
   "homepage": "https://gabrielmonteiro00.github.io/openweatherreactapp",
   "scripts": {
     "predeploy": "npm run build",

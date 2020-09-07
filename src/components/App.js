@@ -21,13 +21,6 @@ export default class App extends React.Component{
       temperature: 0
     };
  
-
-    // this.myCity = cities.filter(function (city) {
-    //   if (city.id == 3460845) { console.log(city); return city; }
-    // });
- 
-    //this.testCity = this.myCity.shift();
-    // this.getWeatherData = this.getWeatherData.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleTextChange = this.handleTextChange.bind(this);
     
@@ -62,6 +55,7 @@ export default class App extends React.Component{
     let lat = this.state.lat;
     let lon = this.state.lon;
     let url = 'https://api.openweathermap.org/data/2.5/onecall?lat='+lat+'&lon='+lon+'&exclude=hourly,minutely&units=metric&appid=a9d12df6c21e95231c7157c8b3cab58c';
+    // URL from OpenWeatherMap
      
     axios.get(url)
     .then(res => {
@@ -69,23 +63,14 @@ export default class App extends React.Component{
 
       const weather = res.data.current.weather[0];
       var temperature = res.data.current.temp;
-      temperature = temperature.toFixed(1);
+      temperature = temperature.toFixed(1); // To get only one decimal
 
-      console.log(res.data);
-      console.log(weather);
-      console.log(temperature);
-      // console.log(res.data.data);
-      // console.log(res.data.data.current);
-      //console.log(res.data.current.weather[0].description)
-      // console.log(res.data.data.current.weather);
-      
       this.setState({
           weatherData: weather,
           hasWeatherData: true,
           temperature: temperature,
       })
 
-      //this.setState({ persons });
     })
   }
 
