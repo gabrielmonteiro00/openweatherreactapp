@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/openweatherreactapp/static/css/main.166973b9.chunk.css",
+    "main.js": "/openweatherreactapp/static/js/main.26c13c58.chunk.js",
+    "main.js.map": "/openweatherreactapp/static/js/main.26c13c58.chunk.js.map",
+    "runtime-main.js": "/openweatherreactapp/static/js/runtime-main.194cd79b.js",
+    "runtime-main.js.map": "/openweatherreactapp/static/js/runtime-main.194cd79b.js.map",
+    "static/js/2.a78314b6.chunk.js": "/openweatherreactapp/static/js/2.a78314b6.chunk.js",
+    "static/js/2.a78314b6.chunk.js.map": "/openweatherreactapp/static/js/2.a78314b6.chunk.js.map",
+    "index.html": "/openweatherreactapp/index.html",
+    "precache-manifest.769301b6c7d2a0b165ee008078eafd90.js": "/openweatherreactapp/precache-manifest.769301b6c7d2a0b165ee008078eafd90.js",
+    "service-worker.js": "/openweatherreactapp/service-worker.js",
+    "static/css/main.166973b9.chunk.css.map": "/openweatherreactapp/static/css/main.166973b9.chunk.css.map",
+    "static/js/2.a78314b6.chunk.js.LICENSE.txt": "/openweatherreactapp/static/js/2.a78314b6.chunk.js.LICENSE.txt",
+    "static/media/logo.png": "/openweatherreactapp/static/media/logo.86a2115b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.194cd79b.js",
+    "static/js/2.a78314b6.chunk.js",
+    "static/css/main.166973b9.chunk.css",
+    "static/js/main.26c13c58.chunk.js"
+  ]
+}
